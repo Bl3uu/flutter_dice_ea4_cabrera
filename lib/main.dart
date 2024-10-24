@@ -96,6 +96,8 @@ class _DicePageState extends State<DicePage> {
                 right = 1;
                 llock = 0;
                 rlock = 0;
+                lcolor = Colors.black;
+                rcolor = Colors.black;
               });
             },
             style: ElevatedButton.styleFrom(
